@@ -17,10 +17,10 @@ class GameOverScene: SKScene {
     super.init(size: size)
     
     backgroundColor = SKColor.white
-    
+  // display Win or Lose scene
     let message = won ? "You Won Little Guy!" : "Game Over Little Guy !"
   
-    
+  // Label font and text
     let label = SKLabelNode(fontNamed: "Chalkduster")
     label.text = message
     label.fontSize = 40

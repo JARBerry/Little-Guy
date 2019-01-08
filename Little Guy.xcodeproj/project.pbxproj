@@ -14,11 +14,11 @@
 		1704CB4721E4AF2A003B4658 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704CB4621E4AF2A003B4658 /* GameViewController.swift */; };
 		1704CB4A21E4AF2A003B4658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1704CB4821E4AF2A003B4658 /* Main.storyboard */; };
 		1704CB4C21E4AF2E003B4658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1704CB4B21E4AF2E003B4658 /* Assets.xcassets */; };
-		1704CB4F21E4AF2E003B4658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1704CB4D21E4AF2E003B4658 /* LaunchScreen.storyboard */; };
 		1704CB5921E4B050003B4658 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1704CB5721E4B050003B4658 /* background-music-aac.caf */; };
 		1704CB5A21E4B050003B4658 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1704CB5821E4B050003B4658 /* pew-pew-lei.caf */; };
 		1704CB5C21E4B062003B4658 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704CB5B21E4B062003B4658 /* GameOverScene.swift */; };
 		1704CB5E21E4B06A003B4658 /* GameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704CB5D21E4B06A003B4658 /* GameHandler.swift */; };
+		1734799321E4B46200E5CF42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1734799221E4B46200E5CF42 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +30,12 @@
 		1704CB4621E4AF2A003B4658 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1704CB4921E4AF2A003B4658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1704CB4B21E4AF2E003B4658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1704CB4E21E4AF2E003B4658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1704CB5021E4AF2E003B4658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1704CB5721E4B050003B4658 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		1704CB5821E4B050003B4658 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		1704CB5B21E4B062003B4658 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		1704CB5D21E4B06A003B4658 /* GameHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHandler.swift; sourceTree = "<group>"; };
+		1734799221E4B46200E5CF42 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 				1704CB5B21E4B062003B4658 /* GameOverScene.swift */,
 				1704CB4621E4AF2A003B4658 /* GameViewController.swift */,
 				1704CB4821E4AF2A003B4658 /* Main.storyboard */,
+				1734799221E4B46200E5CF42 /* LaunchScreen.storyboard */,
 				1704CB4B21E4AF2E003B4658 /* Assets.xcassets */,
-				1704CB4D21E4AF2E003B4658 /* LaunchScreen.storyboard */,
 				1704CB5021E4AF2E003B4658 /* Info.plist */,
 			);
 			path = "Little Guy";
@@ -155,8 +155,8 @@
 				1704CB4A21E4AF2A003B4658 /* Main.storyboard in Resources */,
 				1704CB4121E4AF2A003B4658 /* GameScene.sks in Resources */,
 				1704CB5921E4B050003B4658 /* background-music-aac.caf in Resources */,
+				1734799321E4B46200E5CF42 /* LaunchScreen.storyboard in Resources */,
 				1704CB4C21E4AF2E003B4658 /* Assets.xcassets in Resources */,
-				1704CB4F21E4AF2E003B4658 /* LaunchScreen.storyboard in Resources */,
 				1704CB4321E4AF2A003B4658 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,14 +185,6 @@
 				1704CB4921E4AF2A003B4658 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1704CB4D21E4AF2E003B4658 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1704CB4E21E4AF2E003B4658 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
