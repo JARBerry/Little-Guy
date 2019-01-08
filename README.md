@@ -9,7 +9,7 @@ Simple shoot-em up game, showing a character called Little Guy who shoots ghosts
 
 ![img_5753](https://user-images.githubusercontent.com/36542195/50827977-f3726400-1337-11e9-813d-469fd6b926c2.PNG)
 
-
+![img_5747](https://user-images.githubusercontent.com/36542195/50828151-77c4e700-1338-11e9-8ae0-54d0d012bc9e.PNG)
 
 
 
