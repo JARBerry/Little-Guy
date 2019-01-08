@@ -1,4 +1,4 @@
-# Little-Guy
+# Little Guy
 
 ## Overview
 
